@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.qr-background {
+  width: 240px;
+  height: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+.qr-background img {
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.text {
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+.text h3 {
+  color: hsl(218, 44%, 22%);
+}
+.text span {
+  color: hsl(220, 15%, 55%);
+}
